@@ -3,8 +3,8 @@ import { app, BrowserWindow } from 'electron';
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
-        width: 1024,
-        height: 900,
+        width: 1600,
+        height: 1000,
     });
 
     if (isDev) {
